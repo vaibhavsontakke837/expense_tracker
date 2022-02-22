@@ -1,0 +1,52 @@
+.newExpenseForm{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+}
+.newExpenseForm__item label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.2rem;
+    text-align: left;
+    margin-left: 0.7rem;
+}
+
+.newExpenseForm__item input,button{
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    border: none;
+    outline: none;
+    width: 15rem;
+}
+
+.newExpenseForm__item [type="date"]{
+    font-weight: bold;
+}
+
+.newExpenseForm__item button{
+    margin-top: 1.5rem;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.cancelButton{
+    background-color: red !important;
+    margin: 1rem;
+}
+
+/* .newExpenseForm [type="text"],[type="number"],[type="date"]{
+    padding: 0.2rem;
+    width: 20vw;
+}
+
+.newExpenseForm [type="text"]{
+    flex-grow: 8;
+}
+.newExpenseForm [type="number"]{
+    flex-grow: 1;
+}
+.newExpenseForm [type="date"]{
+    flex-grow: 1;
+} */

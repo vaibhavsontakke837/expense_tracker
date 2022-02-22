@@ -1,0 +1,16 @@
+.expenseItem h1{
+    color: white;
+}
+h3{
+    color: whitesmoke !important;
+}
+select{
+    outline: none;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+option{
+    font-weight: bold;
+}

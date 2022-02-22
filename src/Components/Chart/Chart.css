@@ -1,0 +1,25 @@
+/* .chart{
+
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 1rem;
+    background-color: #F4E5FC;
+    border-radius: 1rem;
+    text-align: center;
+    height: 10rem;
+    margin: auto 1rem;
+} */
+
+.chart{
+    display: flex;
+    justify-content: space-around;
+    
+    color:white;
+    padding: 1rem;
+    background-color: #F4E5FC;
+    border-radius: 1rem;
+    height: 10rem;
+    margin: auto 1rem;
+    text-align: center;
+}

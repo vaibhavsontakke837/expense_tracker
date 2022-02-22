@@ -1,0 +1,55 @@
+.chartBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100%; */
+    color: black;
+}
+.chartBar_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    height: 100%;
+    width: 1rem;
+    border: 2px soli black;
+    border-radius: 1rem;
+    background-color: #C4B9F0;
+}
+.chartBar_fill{
+    /* height: 50%; */
+    background-color: rgb(87, 17, 252);
+    border-radius: 1rem;
+    transition: all 2s ease-out
+}
+.chartBar_label{
+    font-weight: bold;
+    text-align: center;
+}
+/* .chartBar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chartBar_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    height: 100%;
+    width: 1rem;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: #C4B9F0;
+}
+.chartBar_fill{
+    width: 100%;
+    border-radius: 12px;
+    background-color: rgb(87, 17, 252);
+    transition: all 2s ease-out;
+}
+.chartBar_label{
+    font-weight: bold;
+    text-align: center;
+} */
