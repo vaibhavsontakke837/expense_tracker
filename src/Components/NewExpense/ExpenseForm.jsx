@@ -2,7 +2,7 @@ import { useState } from 'react/cjs/react.development';
 import './ExpenseForm.css'
 const ExpeneForm = (props) => {
 
-    const [title, setTitle] = useState("Sumit");
+    const [title, setTitle] = useState();
     const [amount, setAmount] = useState(0);
     const [date, setDate] = useState();
 

@@ -4,6 +4,7 @@
     align-items: center;
     /* height: 100%; */
     color: black;
+    width: 1rem;
 }
 .chartBar_inner{
     display: flex;
@@ -12,6 +13,7 @@
     
     height: 100%;
     width: 1rem;
+    margin: 0;
     border: 2px soli black;
     border-radius: 1rem;
     background-color: #C4B9F0;
@@ -25,31 +27,26 @@
 .chartBar_label{
     font-weight: bold;
     text-align: center;
+    transform: skewX(0deg);
+    margin: 0 rem;
+    padding: 0;
 }
-/* .chartBar{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+@media only screen and (max-width: 425px){
+    .chartBar_inner{
+        width: .8rem;
+    }
 }
-.chartBar_inner{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    
-    height: 100%;
-    width: 1rem;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: #C4B9F0;
+@media only screen and (max-width: 530px){
+    .chartBar_label{
+        transition: transform 2s;
+        margin: 0 1rem !important;
+        padding: 0 1rem !important;
+        font-weight: 400;
+        font-size: .9rem;
+
+
+        display: flex;
+        justify-content: space-between;
+    }
 }
-.chartBar_fill{
-    width: 100%;
-    border-radius: 12px;
-    background-color: rgb(87, 17, 252);
-    transition: all 2s ease-out;
-}
-.chartBar_label{
-    font-weight: bold;
-    text-align: center;
-} */

@@ -1,8 +1,8 @@
-import Props from './props.jsx'
+import Home from './home.jsx'
 function App() {
   return (
     <div>
-      <Props /> 
+      <Home /> 
     </div>
   );
 }

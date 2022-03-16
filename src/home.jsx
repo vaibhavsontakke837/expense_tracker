@@ -86,8 +86,6 @@ const dummyData = [
 
 const FirstProps = () => {
 
-    //  const months = ["January", "February", "March", "April", "May", "June", 
-    // "July", "August", "September", "October", "November", "December"]; 
 
     const [expenseData, setExpenseData] = useState(dummyData);
 
